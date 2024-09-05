@@ -7,22 +7,22 @@ import styles from "./Experience.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
-    return <section className={styles.container} id="Experience">
+    return <section className={styles.container} id="experience">
         <h2 className={styles.title}>Experiencia</h2>
 
         <div className={styles.content}>
             <div className={styles.skills}>{
                 skills.map((skill, id) => {
-                    return <dir key={id} className={styles.skill}>
+                    return (<dir key={id} className={styles.skill}>
                         <div className={styles.skillImageContainer}>
                             <img 
                                 src={getImageUrl(skill.imageSrc)} 
                                 alt={skill.title} 
                             />
-
-                            <p>{skill.title}</p>
                         </div>
-                    </dir>
+
+                        <p>{skill.title}</p>
+                    </dir>)
                 })
             }</div>
 

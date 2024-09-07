@@ -5,25 +5,29 @@ import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({ project : {title,imageSrc,description,skills,demo,source}}) => { //const project = props.project
     return (
-        <div>
+        <div className={styles.container}>
             <img 
                 src={getImageUrl(imageSrc)} 
                 alt={`Imagen de ${title}`} 
+                className={styles.image}
             />
 
-            <h3>{title}</h3>
+            <h3 className={styles.title}>{title}</h3>
 
-            <p>{description}</p>
+            <p className={styles.description}>{description}</p>
 
-            <ul>{
-                skills.map((skill,id) => {
-                    <li key={id}>{skill}</li>
-                })
-            }</ul>
+            <ul className={styles.skills}>
+                {skills.map((skill,idSkill) => ( // ( instead of { to make it work
+                    // implicit return for li
+                    <li key={idSkill} className={styles.skill}>
+                        {skill}
+                    </li>
+                ))}
+            </ul>
 
-            <div>
-                <a href={demo}>Demo</a>
-                <a href={source}>Fuente</a>
+            <div className={styles.links}>
+                <a href={demo} className={styles.link}>Demo</a>
+                <a href={source} className={styles.link}>Codigo</a>
             </div>
         </div>
     )

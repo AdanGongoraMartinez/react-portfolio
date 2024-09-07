@@ -6,15 +6,15 @@ import { getImageUrl } from "../../utils";
 export const Hero = () => {
     return <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Hola! Soy Adan</h1>
-            <p className={styles.description}>Estudiante de Ingenieria Informatica</p>
+            <h1 className={styles.title}>¡Hola! Soy Adán</h1>
+            <p className={styles.description}>Ingeniero Informático</p>
             <a href="mailto:21890241@ittizimin.edu.mx" className={styles.contactBtn}>
-                Contactame
+                Contáctame
             </a>
         </div>
 
         <img 
-            src={getImageUrl("hero/heroImage.png")} 
+            src={getImageUrl("hero/profilePic.png")} 
             alt="Hero image of me" 
             className={styles.heroImg}
         />

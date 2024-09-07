@@ -7,14 +7,14 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
     return (
-        <section>
-            <h2>Proyectos</h2>
+        <section className={styles.container}>
+            <h2 className={styles.title}>Proyectos</h2>
 
-            <div>{
-                projects.map((project,id) => {
-                    return <ProjectCard key={id} project={project}/>
-                })
-            }</div>
+            <div className={styles.projects}>
+                {projects.map((project,id) => {
+                    return (<ProjectCard key={id} project={project}/>)
+                })}
+            </div>
         </section>
     )
 };

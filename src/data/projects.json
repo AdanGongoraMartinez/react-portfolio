@@ -1,18 +1,10 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Chat en tiempo real",
+      "imageSrc": "projects/chat.png",
+      "description": "Un proyecto con Node.js para aprender el uso de sockets y bases de datos.",
+      "skills": ["SQLite", "Express", "Node"],
+      "demo": "https://chat-node-js-4xf7.onrender.com/",
+      "source": "https://github.com/AdanGongoraMartinez/chat-node-js"
     }
   ]

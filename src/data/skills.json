@@ -18,5 +18,25 @@
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "skills/postgresql.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "Angular",
+      "imageSrc": "skills/angular.png"
+    },
+    {
+      "title": "GNU/Linux",
+      "imageSrc": "skills/linux.png"
     }
   ]

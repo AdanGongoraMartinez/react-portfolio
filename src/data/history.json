@@ -1,29 +1,10 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
+      "role": "Curso de Java",
+      "organisation": "Xideral",
       "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
-    },
-    {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
+      "endDate": "Nov,2022",
+      "experiences": ["Implementación de Java en entornos empresariales.", "Comprensión más profunda del lenguaje.", "Comprensión más profunda de la POO."],
+      "imageSrc": "history/xideral.png"
     }
   ]

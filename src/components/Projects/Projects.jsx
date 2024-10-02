@@ -7,8 +7,9 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="projects">
             <h2 className={styles.title}>Proyectos</h2>
+            <p className={styles.nota}>NOTA: Los proyectos web tardan un poco en abrir por que el servidor los suspende cuando no tienen actividad.</p>
 
             <div className={styles.projects}>
                 {projects.map((project,id) => {

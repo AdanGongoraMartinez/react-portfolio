@@ -10,7 +10,7 @@
     {
       "title": "Conteo de huevecillos de mosquitos.",
       "imageSrc": "projects/mosquito.png",
-      "description": "Proyecto con la librería OpenCV de Python para visión computacional.",
+      "description": "Proyecto de investigación con la librería OpenCV de Python para visión computacional.",
       "skills": ["Python", "OpenCV","IA"],
       "demo": "https://www.revistadelcentrodegraduados.com/",
       "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"

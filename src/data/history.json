@@ -1,5 +1,21 @@
 [
-    {
+  {
+    "role": "Bachillerato Técnico",
+    "organisation": "Conalep Plantel Tizimín",
+    "startDate": "Ago, 2015",
+    "endDate": "Jun,2021",
+    "experiences": ["Tomé la carrera técnica en informática.","Graduado con el mejor promedio de mi generación."],
+    "imageSrc": "history/conalep.png"
+  },
+  {
+    "role": "Carrera en Ingeniería Informática",
+    "organisation": "TECNM Campus Tizimín",
+    "startDate": "Ago, 2021",
+    "endDate": "Actualidad",
+    "experiences": ["Ingeniería con especización en ciberseguridad.","El mejor promedio del sexto semestre de informática."],
+    "imageSrc": "history/tecnm.png"
+  },
+  {
       "role": "Curso de Java",
       "organisation": "Xideral",
       "startDate": "Sept, 2022",

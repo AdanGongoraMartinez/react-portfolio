@@ -17,6 +17,7 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    max-width: 40vw;
 }
 
 .title{
@@ -110,5 +111,8 @@
 
     .content{
         align-items: center;
+        max-width: 80vw;
+        text-align: center;
     }
+
 }

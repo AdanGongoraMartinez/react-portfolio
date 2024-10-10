@@ -38,5 +38,9 @@
     {
       "title": "GNU/Linux",
       "imageSrc": "skills/linux.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "skills/git.png"
     }
   ]

@@ -52,6 +52,11 @@
     cursor: pointer;
 }
 
+.contactBtn:hover {
+  background-color: var(--color-text);
+  color: var(--color-primary);
+}
+
 .heroImg{
     border-radius: 100%;
 

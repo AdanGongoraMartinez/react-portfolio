@@ -1,5 +1,13 @@
 [
     {
+      "title": "API InvenScan",
+      "imageSrc": "projects/InvenScanLogo.jpg",
+      "description": "API para realizar opraciones CRUD en una DB para el manejo de inventarios.",
+      "skills": ["SQLite", "Express", "Node"],
+      "demo": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito",
+      "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
+    },
+    {
       "title": "Chat en tiempo real",
       "imageSrc": "projects/chat.png",
       "description": "Un proyecto con Node.js para aprender el uso de sockets y bases de datos.",
@@ -15,4 +23,4 @@
       "demo": "https://www.revistadelcentrodegraduados.com/",
       "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
     }
-  ]
+]

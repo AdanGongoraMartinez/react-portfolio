@@ -9,7 +9,9 @@ export const Projects = () => {
     return (
         <section className={styles.container} id="projects">
             <h2 className={styles.title}>Proyectos</h2>
-            <p className={styles.nota}>NOTA: Debido a un error en el SGDB implementado en la nube, los proyectos están temporalmente inoperativos.<>
+            <p className={styles.nota}>
+                NOTA: Debido a un error en el SGDB implementado en la nube, los proyectos están temporalmente inoperativos.
+            </p>
 
             <div className={styles.projects}>
                 {projects.map((project,id) => {

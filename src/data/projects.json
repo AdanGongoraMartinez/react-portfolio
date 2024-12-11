@@ -1,26 +1,39 @@
 [
     {
-      "title": "API InvenScan",
-      "imageSrc": "projects/InvenScanLogo.jpg",
-      "description": "API para realizar opraciones CRUD en una DB para el manejo de inventarios.",
-      "skills": ["SQLite", "Express", "Node"],
-      "demo": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito",
-      "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
+        "title": "To-Do List",
+        "imageSrc": "projects/ToDoList.png",
+        "description": "CRUD simple en NodeJS con modelo MVC para anotar tareas.",
+        "skills": [
+            "PostgreSQL",
+            "Express",
+            "Node",
+            "MVC"
+        ],
+        "demo": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito",
+        "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
     },
     {
-      "title": "Chat en tiempo real",
-      "imageSrc": "projects/chat.png",
-      "description": "Un proyecto con Node.js para aprender el uso de sockets y bases de datos.",
-      "skills": ["SQLite", "Express", "Node"],
-      "demo": "https://chat-node-js-4xf7.onrender.com/",
-      "source": "https://github.com/AdanGongoraMartinez/chat-node-js"
+        "title": "Chat en tiempo real",
+        "imageSrc": "projects/chat.png",
+        "description": "Un proyecto con Node.js para aprender el uso de sockets y bases de datos. No funciona.",
+        "skills": [
+            "SQLite",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://chat-node-js-4xf7.onrender.com/",
+        "source": "https://github.com/AdanGongoraMartinez/chat-node-js"
     },
     {
-      "title": "Conteo de huevecillos de mosquitos.",
-      "imageSrc": "projects/mosquito.png",
-      "description": "Proyecto de investigación con la librería OpenCV de Python para visión computacional.",
-      "skills": ["Python", "OpenCV","IA"],
-      "demo": "https://www.revistadelcentrodegraduados.com/",
-      "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
+        "title": "Conteo de huevecillos de mosquitos.",
+        "imageSrc": "projects/mosquito.png",
+        "description": "Proyecto de investigación con la librería OpenCV de Python para visión computacional.",
+        "skills": [
+            "Python",
+            "OpenCV",
+            "IA"
+        ],
+        "demo": "https://www.revistadelcentrodegraduados.com/",
+        "source": "https://github.com/AdanGongoraMartinez/python-opencv-mosquito"
     }
 ]

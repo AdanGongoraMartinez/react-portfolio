@@ -1,5 +1,16 @@
 [
     {
+        "title": "Temas de la Capacitación de Plenumsoft",
+        "imageSrc": "projects/temas-plenumsoft.png",
+        "description": "Un sitio web simple que presenta resúmenes de los temas tratados durante mi capacitación dual.",
+        "skills": [
+            "Express",
+            "Node"
+        ],
+        "demo": "https://temas-celulas-plenum.onrender.com/",
+        "source": "https://github.com/AdanGongoraMartinez/temas-celulas-plenum"
+    },
+    {
         "title": "To-Do List",
         "imageSrc": "projects/ToDoList.png",
         "description": "CRUD simple en NodeJS con modelo MVC para anotar tareas.",
